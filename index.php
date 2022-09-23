@@ -297,12 +297,10 @@
     </section>
 
     <?php
-        $slider_slides = '<div class="swiper-slide">
-                            <div class="card">
-                                <div class="content">
-                                    <h2>Innovation</h2>
-                                    <p>We love innovation but only when it leads to enhancement or progression. We look to how Web3.0 can fix existing problems and how company business models can evolve with IoT, Blockchain, NFTs, DAO and the endless possibilities new technology is presenting</p> 
-                                </div>
+        $slider_slides = '<div class="swiper-slide card">
+                            <div class="content">
+                                <h2>Innovation</h2>
+                                <p>We love innovation but only when it leads to enhancement or progression. We look to how Web3.0 can fix existing problems and how company business models can evolve with IoT, Blockchain, NFTs, DAO and the endless possibilities new technology is presenting</p> 
                             </div>
                         </div>';
     ?>
@@ -355,11 +353,11 @@
             },
             1024: {
                 slidesPerView: 2,
-                spaceBetween: 100,
+                spaceBetween: 50,
             },
             1300: {
                 slidesPerView: 2.5,
-                spaceBetween: 100,
+                spaceBetween: 50,
             },
             // 2540: {
             //     slidesPerView: 1,
